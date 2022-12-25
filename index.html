@@ -1,1 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Car gallery</title>
+    <meta name="keywords" content="Car gallery"/>
+    <meta name="description" content="Cool gallery for street racers"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png">
+    <script type="text/javascript" src="RGR.js"></script>
+    <script type="text/javascript" src="viewController.js"></script>
+    <script type="text/javascript" src="slideShow.js"></script>
+</head>
 
+<body>
+<header class="header">
+    <div class="nav-container">
+        <div class="column-button" id="button1" onclick="view(1)">1</div>
+        <div class="column-button" id="button2" onclick="view(2)">2</div>
+        <div class="column-button" id="button3" onclick="view(3)">3</div>
+        <div class="column-button" id="button4" onclick="view(4)">4</div>
+        <div class="column-button" id="button5" onclick="view(5)">5</div>
+        <div class="column-button" id="buttonplus" onclick="start(0)">Start/stop</div>
+        <div class="label-nav"><img src="img/img.png" alt="?" class="label-icon">
+            <div class="label">Cars gallery</div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="mySlides">
+        <img src="img/img_1.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_2.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_3.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_4.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_5.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_6.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_7.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_8.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_9.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_10.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_11.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_12.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_13.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_14.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_15.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_16.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_17.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_18.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_19.jpeg" class="shown-image" alt="">
+    </div>
+    <div class="mySlides">
+        <img src="img/img_20.jpeg" class="shown-image" alt="">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="gallery5" id="myGallery">
+
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_1.jpeg" class="demo cursor" alt="" onclick="currentSlide(1)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_2.jpeg" class="demo cursor" alt="" onclick="currentSlide(2)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_3.jpeg" class="demo cursor" alt="" onclick="currentSlide(3)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_4.jpeg" class="demo cursor" alt="" onclick="currentSlide(4)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_5.jpeg" class="demo cursor" alt="" onclick="currentSlide(5)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_6.jpeg" class="demo cursor" alt="" onclick="currentSlide(6)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_7.jpeg" class="demo cursor" alt="" onclick="currentSlide(7)"/>
+            </div>
+        </div>
+        <div class="gallery__item ">
+            <div class="embed ">
+                <img src="img/img_8.jpeg" class="demo cursor" alt="" onclick="currentSlide(8)"/>
+            </div>
+        </div>
+        <div class="gallery__item ">
+            <div class="embed ">
+                <img src="img/img_9.jpeg" class="demo cursor" alt="" onclick="currentSlide(9)"/>
+            </div>
+        </div>
+        <div class="gallery__item  ">
+            <div class="embed">
+                <img src="img/img_10.jpeg" class="demo cursor" alt="" onclick="currentSlide(10)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_11.jpeg" class="demo cursor" alt="" onclick="currentSlide(11)"/>
+            </div>
+        </div>
+        <div class="gallery__item  ">
+            <div class="embed">
+                <img src="img/img_12.jpeg" class="demo cursor" alt="" onclick="currentSlide(12)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_13.jpeg" class="demo cursor" alt="" onclick="currentSlide(13)"/>
+            </div>
+        </div>
+        <div class="gallery__item  ">
+            <div class="embed ">
+                <img src="img/img_14.jpeg" class="demo cursor" alt="" onclick="currentSlide(14)"/>
+            </div>
+        </div>
+        <div class="gallery__item  ">
+            <div class="embed">
+                <img src="img/img_15.jpeg" class="demo cursor" alt="" onclick="currentSlide(15)"/>
+            </div>
+        </div>
+        <div class="gallery__item ">
+            <div class="embed ">
+                <img src="img/img_16.jpeg" class="demo cursor" alt="" onclick="currentSlide(16)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_17.jpeg" class="demo cursor" alt="" onclick="currentSlide(17)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_18.jpeg" class="demo cursor" alt="" onclick="currentSlide(18)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_19.jpeg" class="demo cursor" alt="" onclick="currentSlide(19)"/>
+            </div>
+        </div>
+        <div class="gallery__item">
+            <div class="embed">
+                <img src="img/img_20.jpeg" class="demo cursor" alt="" onclick="currentSlide(20)"/>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
